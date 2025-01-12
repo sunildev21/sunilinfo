@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { Cover } from "@/components/ui/cover";
 
 function Home() {
   return (
@@ -21,8 +22,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name">  SUNIL GUPTA </strong>
+                I'M <Cover>Sunil Gupta</Cover>
+                {/* <strong className="main-name">  SUNIL GUPTA </strong> */}
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
